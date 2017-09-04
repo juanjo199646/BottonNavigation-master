@@ -1,0 +1,1267 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.i053113.bottonnavigation.DosFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <!--construccion de marco 1-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:padding="12dp"
+                android:background="@drawable/border_radius">
+
+                <!--INICIO DE CABEZA EN LA CAJA -->
+
+                <RelativeLayout
+                    android:id="@+id/Re_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorotro">
+
+                    <!--imagen de de cabecera - aparte con medidas-->
+                    <ImageView
+                        android:id="@+id/img_1"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/icon1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+
+
+
+                        />
+
+                    <!--texto cabecera-->
+                    <TextView
+                        android:id="@+id/tx_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_str_1"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/img_1"
+                        android:textSize="13sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <!--texto cabecera 2-->
+                    <TextView
+                        android:id="@+id/tx_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_str_2"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@id/tx_1"
+                        android:layout_toRightOf="@id/img_1"
+                        android:textSize="15sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <!--texto cabecera 3-->
+                    <TextView
+                        android:id="@+id/tx_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_str_3"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@id/tx_2"
+                        android:layout_toRightOf="@id/img_1"
+                        android:textSize="13sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                </RelativeLayout>
+
+
+                <!--caja debajo de cabecera-->
+                <RelativeLayout
+                    android:id="@+id/Re_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_below="@id/Re_1"
+                    android:background="@color/colormedio"
+
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_alignParentBottom="true">
+
+
+                        <!--caja para los numeros -->
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            >
+
+                            <!--texto (2) -->
+                            <TextView
+                                android:id="@+id/tx_4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_4"
+                                android:textSize="20dp"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="2dp"
+                                android:layout_centerHorizontal="true"/>
+
+                            <!--texto (LLAMADAS) -->
+
+                            <TextView
+                                android:id="@+id/tx_5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_5"
+                                android:textSize="15dp"
+                                android:layout_below="@id/tx_4"
+                                android:layout_marginLeft="10dp"
+                                />
+
+                        </RelativeLayout>
+
+
+
+                        <!--OTRA CAJA PARA EL OTRO NUMERO DE LA DERECHA -->
+
+                        <!--texto (4) -->
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            >
+
+                            <!--texto (2) -->
+                            <TextView
+                                android:id="@+id/tx_6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_6"
+                                android:textSize="20dp"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="2dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="90dp"/>
+
+                            <!--texto (LLAMADAS) -->
+
+                            <TextView
+                                android:id="@+id/tx_7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_7"
+                                android:textSize="15dp"
+                                android:layout_below="@id/tx_6"
+                                android:layout_marginLeft="100dp"
+                                android:layout_centerHorizontal="true"
+                                />
+
+                        </RelativeLayout>
+
+                        <!--OTRA CAJA PARA EL OTRO NUMERO DE LA DERECHA -->
+
+                        <!--texto (48) -->
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            >
+
+                            <!--texto (2) -->
+                            <TextView
+                                android:id="@+id/tx_8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_8"
+                                android:textSize="20dp"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="2dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="80dp"
+
+                                />
+
+                            <!--texto (LLAMADAS) -->
+
+                            <TextView
+                                android:id="@+id/tx_9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_9"
+                                android:textSize="15dp"
+                                android:layout_below="@id/tx_8"
+                                android:layout_centerHorizontal="true"
+                                />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+
+                <!--aquie es donde se encontrara las demas opciones debajo de la cabecera 2-->
+
+
+                <RelativeLayout
+                    android:id="@+id/Re_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/Re_2"
+                    android:background="@drawable/border">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_alignParentBottom="true">
+
+                        <ImageView
+                            android:id="@+id/img_2"
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/camara"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginBottom="10dp"
+                            />
+
+                        <ImageView
+                            android:id="@+id/img_3"
+                            android:layout_width="35dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/image"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginBottom="10dp"
+                            />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="20sp"
+                            android:layout_marginHorizontal="10dp"
+                            android:background="@color/colormeabjo"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp">
+
+                            <TextView
+                                android:id="@+id/tx_10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_10"
+                                android:textSize="17sp"
+
+
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginStart="16dp"
+                                android:textColor="@color/colorPrimaryDark"/>
+
+
+
+                        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+                </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+            </RelativeLayout>
+
+            <!--construccion de marco 2-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:padding="12dp"
+                android:background="@drawable/border_radius">
+
+                <!--INICIO DE CABEZA EN LA CAJA -->
+
+                <RelativeLayout
+                    android:id="@+id/Re_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorotro">
+
+                    <!--imagen de de cabecera - aparte con medidas-->
+                    <ImageView
+                        android:id="@+id/img_1"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/icon1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+
+
+
+                        />
+
+                    <!--texto cabecera-->
+                    <TextView
+                        android:id="@+id/tx_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_str_1"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/img_1"
+                        android:textSize="13sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <!--texto cabecera 2-->
+                    <TextView
+                        android:id="@+id/tx_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_str_2"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@id/tx_1"
+                        android:layout_toRightOf="@id/img_1"
+                        android:textSize="15sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <!--texto cabecera 3-->
+                    <TextView
+                        android:id="@+id/tx_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_str_3"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@id/tx_2"
+                        android:layout_toRightOf="@id/img_1"
+                        android:textSize="13sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                </RelativeLayout>
+
+
+                <!--caja debajo de cabecera-->
+                <RelativeLayout
+                    android:id="@+id/Re_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_below="@id/Re_1"
+                    android:background="@color/colormedio"
+
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_alignParentBottom="true">
+
+
+                        <!--caja para los numeros -->
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            >
+
+                            <!--texto (2) -->
+                            <TextView
+                                android:id="@+id/tx_4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_4"
+                                android:textSize="20dp"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="2dp"
+                                android:layout_centerHorizontal="true"/>
+
+                            <!--texto (LLAMADAS) -->
+
+                            <TextView
+                                android:id="@+id/tx_5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_5"
+                                android:textSize="15dp"
+                                android:layout_below="@id/tx_4"
+                                android:layout_marginLeft="10dp"
+                                />
+
+                        </RelativeLayout>
+
+
+
+                        <!--OTRA CAJA PARA EL OTRO NUMERO DE LA DERECHA -->
+
+                        <!--texto (4) -->
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            >
+
+                            <!--texto (2) -->
+                            <TextView
+                                android:id="@+id/tx_6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_6"
+                                android:textSize="20dp"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="2dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="90dp"/>
+
+                            <!--texto (LLAMADAS) -->
+
+                            <TextView
+                                android:id="@+id/tx_7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_7"
+                                android:textSize="15dp"
+                                android:layout_below="@id/tx_6"
+                                android:layout_marginLeft="100dp"
+                                android:layout_centerHorizontal="true"
+                                />
+
+                        </RelativeLayout>
+
+                        <!--OTRA CAJA PARA EL OTRO NUMERO DE LA DERECHA -->
+
+                        <!--texto (48) -->
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            >
+
+                            <!--texto (2) -->
+                            <TextView
+                                android:id="@+id/tx_8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_8"
+                                android:textSize="20dp"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="2dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="80dp"
+
+                                />
+
+                            <!--texto (LLAMADAS) -->
+
+                            <TextView
+                                android:id="@+id/tx_9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_9"
+                                android:textSize="15dp"
+                                android:layout_below="@id/tx_8"
+                                android:layout_centerHorizontal="true"
+                                />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+
+                <!--aquie es donde se encontrara las demas opciones debajo de la cabecera 2-->
+
+
+                <RelativeLayout
+                    android:id="@+id/Re_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/Re_2"
+                    android:background="@drawable/border">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_alignParentBottom="true">
+
+                        <ImageView
+                            android:id="@+id/img_2"
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/camara"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginBottom="10dp"
+                            />
+
+                        <ImageView
+                            android:id="@+id/img_3"
+                            android:layout_width="35dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/image"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginBottom="10dp"
+                            />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="20sp"
+                            android:layout_marginHorizontal="10dp"
+                            android:background="@color/colormeabjo"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp">
+
+                            <TextView
+                                android:id="@+id/tx_10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_10"
+                                android:textSize="17sp"
+
+
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginStart="16dp"
+                                android:textColor="@color/colorPrimaryDark"/>
+
+
+
+                        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+                </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+            </RelativeLayout>
+
+            <!--construccion de marco 3-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:padding="12dp"
+                android:background="@drawable/border_radius">
+
+                <!--INICIO DE CABEZA EN LA CAJA -->
+
+                <RelativeLayout
+                    android:id="@+id/Re_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorotro">
+
+                    <!--imagen de de cabecera - aparte con medidas-->
+                    <ImageView
+                        android:id="@+id/img_1"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/icon1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+
+
+
+                        />
+
+                    <!--texto cabecera-->
+                    <TextView
+                        android:id="@+id/tx_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_str_1"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/img_1"
+                        android:textSize="13sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <!--texto cabecera 2-->
+                    <TextView
+                        android:id="@+id/tx_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_str_2"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@id/tx_1"
+                        android:layout_toRightOf="@id/img_1"
+                        android:textSize="15sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <!--texto cabecera 3-->
+                    <TextView
+                        android:id="@+id/tx_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_str_3"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@id/tx_2"
+                        android:layout_toRightOf="@id/img_1"
+                        android:textSize="13sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                </RelativeLayout>
+
+
+                <!--caja debajo de cabecera-->
+                <RelativeLayout
+                    android:id="@+id/Re_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_below="@id/Re_1"
+                    android:background="@color/colormedio"
+
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_alignParentBottom="true">
+
+
+                        <!--caja para los numeros -->
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            >
+
+                            <!--texto (2) -->
+                            <TextView
+                                android:id="@+id/tx_4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_4"
+                                android:textSize="20dp"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="2dp"
+                                android:layout_centerHorizontal="true"/>
+
+                            <!--texto (LLAMADAS) -->
+
+                            <TextView
+                                android:id="@+id/tx_5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_5"
+                                android:textSize="15dp"
+                                android:layout_below="@id/tx_4"
+                                android:layout_marginLeft="10dp"
+                                />
+
+                        </RelativeLayout>
+
+
+
+                        <!--OTRA CAJA PARA EL OTRO NUMERO DE LA DERECHA -->
+
+                        <!--texto (4) -->
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            >
+
+                            <!--texto (2) -->
+                            <TextView
+                                android:id="@+id/tx_6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_6"
+                                android:textSize="20dp"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="2dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="90dp"/>
+
+                            <!--texto (LLAMADAS) -->
+
+                            <TextView
+                                android:id="@+id/tx_7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_7"
+                                android:textSize="15dp"
+                                android:layout_below="@id/tx_6"
+                                android:layout_marginLeft="100dp"
+                                android:layout_centerHorizontal="true"
+                                />
+
+                        </RelativeLayout>
+
+                        <!--OTRA CAJA PARA EL OTRO NUMERO DE LA DERECHA -->
+
+                        <!--texto (48) -->
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            >
+
+                            <!--texto (2) -->
+                            <TextView
+                                android:id="@+id/tx_8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_8"
+                                android:textSize="20dp"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="2dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="80dp"
+
+                                />
+
+                            <!--texto (LLAMADAS) -->
+
+                            <TextView
+                                android:id="@+id/tx_9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_9"
+                                android:textSize="15dp"
+                                android:layout_below="@id/tx_8"
+                                android:layout_centerHorizontal="true"
+                                />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+
+                <!--aquie es donde se encontrara las demas opciones debajo de la cabecera 2-->
+
+
+                <RelativeLayout
+                    android:id="@+id/Re_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/Re_2"
+                    android:background="@drawable/border">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_alignParentBottom="true">
+
+                        <ImageView
+                            android:id="@+id/img_2"
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/camara"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginBottom="10dp"
+                            />
+
+                        <ImageView
+                            android:id="@+id/img_3"
+                            android:layout_width="35dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/image"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginBottom="10dp"
+                            />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="20sp"
+                            android:layout_marginHorizontal="10dp"
+                            android:background="@color/colormeabjo"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp">
+
+                            <TextView
+                                android:id="@+id/tx_10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_10"
+                                android:textSize="17sp"
+
+
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginStart="16dp"
+                                android:textColor="@color/colorPrimaryDark"/>
+
+
+
+                        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+                </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+            </RelativeLayout>
+
+            <!--construccion de marco 4-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:padding="12dp"
+                android:background="@drawable/border_radius">
+
+                <!--INICIO DE CABEZA EN LA CAJA -->
+
+                <RelativeLayout
+                    android:id="@+id/Re_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorotro">
+
+                    <!--imagen de de cabecera - aparte con medidas-->
+                    <ImageView
+                        android:id="@+id/img_1"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/icon1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+
+
+
+                        />
+
+                    <!--texto cabecera-->
+                    <TextView
+                        android:id="@+id/tx_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_str_1"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/img_1"
+                        android:textSize="13sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <!--texto cabecera 2-->
+                    <TextView
+                        android:id="@+id/tx_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_str_2"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@id/tx_1"
+                        android:layout_toRightOf="@id/img_1"
+                        android:textSize="15sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <!--texto cabecera 3-->
+                    <TextView
+                        android:id="@+id/tx_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_str_3"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@id/tx_2"
+                        android:layout_toRightOf="@id/img_1"
+                        android:textSize="13sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                </RelativeLayout>
+
+
+                <!--caja debajo de cabecera-->
+                <RelativeLayout
+                    android:id="@+id/Re_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_below="@id/Re_1"
+                    android:background="@color/colormedio"
+
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_alignParentBottom="true">
+
+
+                        <!--caja para los numeros -->
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            >
+
+                            <!--texto (2) -->
+                            <TextView
+                                android:id="@+id/tx_4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_4"
+                                android:textSize="20dp"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="2dp"
+                                android:layout_centerHorizontal="true"/>
+
+                            <!--texto (LLAMADAS) -->
+
+                            <TextView
+                                android:id="@+id/tx_5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_5"
+                                android:textSize="15dp"
+                                android:layout_below="@id/tx_4"
+                                android:layout_marginLeft="10dp"
+                                />
+
+                        </RelativeLayout>
+
+
+
+                        <!--OTRA CAJA PARA EL OTRO NUMERO DE LA DERECHA -->
+
+                        <!--texto (4) -->
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            >
+
+                            <!--texto (2) -->
+                            <TextView
+                                android:id="@+id/tx_6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_6"
+                                android:textSize="20dp"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="2dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="90dp"/>
+
+                            <!--texto (LLAMADAS) -->
+
+                            <TextView
+                                android:id="@+id/tx_7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_7"
+                                android:textSize="15dp"
+                                android:layout_below="@id/tx_6"
+                                android:layout_marginLeft="100dp"
+                                android:layout_centerHorizontal="true"
+                                />
+
+                        </RelativeLayout>
+
+                        <!--OTRA CAJA PARA EL OTRO NUMERO DE LA DERECHA -->
+
+                        <!--texto (48) -->
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            >
+
+                            <!--texto (2) -->
+                            <TextView
+                                android:id="@+id/tx_8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_8"
+                                android:textSize="20dp"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="2dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="80dp"
+
+                                />
+
+                            <!--texto (LLAMADAS) -->
+
+                            <TextView
+                                android:id="@+id/tx_9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_9"
+                                android:textSize="15dp"
+                                android:layout_below="@id/tx_8"
+                                android:layout_centerHorizontal="true"
+                                />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+
+                <!--aquie es donde se encontrara las demas opciones debajo de la cabecera 2-->
+
+
+                <RelativeLayout
+                    android:id="@+id/Re_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/Re_2"
+                    android:background="@drawable/border">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_alignParentBottom="true">
+
+                        <ImageView
+                            android:id="@+id/img_2"
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/camara"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginBottom="10dp"
+                            />
+
+                        <ImageView
+                            android:id="@+id/img_3"
+                            android:layout_width="35dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/image"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginBottom="10dp"
+                            />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="20sp"
+                            android:layout_marginHorizontal="10dp"
+                            android:background="@color/colormeabjo"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp">
+
+                            <TextView
+                                android:id="@+id/tx_10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_10"
+                                android:textSize="17sp"
+
+
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginStart="16dp"
+                                android:textColor="@color/colorPrimaryDark"/>
+
+
+
+                        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+                </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_10"
+        android:layout_margin="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+
+
+
+
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="opcion 3"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:background="@color/colorverde"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="opcion 2"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:background="@color/colorverde"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="opcion 1"
+            android:textColor="@color/colormeabjo"
+            android:textSize="20sp"
+            android:background="@color/colorverde"/>
+
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</RelativeLayout>
+
+
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">BottonNavigation</string>
+    <string name="str_item1">Recents</string>
+    <string name="str_item2">Favorites</string>
+    <string name="str_item3">Nearvy</string>
+    <string name="tx_1">Pantalla 1</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tx_2">Pantalla 2</string>
+    <string name="tx_3">Pantalla 3</string>
+
+
+    <string name="app_str_1">10 : 49</string>
+    <string name="app_str_2">Sabado</string>
+    <string name="app_str_3">29 Agosto 2017</string>
+    <string name="str_4">2</string>
+    <string name="str_5">Llamadas</string>
+    <string name="str_6">4</string>
+    <string name="str_7">Mensajes</string>
+    <string name="str_8">48</string>
+    <string name="str_9">Notificaciónes</string>
+    <string name="str_10">Estado de bateria 91 %</string>
+    <string name="app_item1">guardar</string>
+    <string name="app_item2">modificar</string>
+    <string name="app_item3">eliminar</string>
+
+
+
+
+    <string name="app_na">Terminator</string>
+    <string name="cris">Cris Evans</string>
+    <string name="txt1">Chris Evans, ¿Negocia Seguir Siendo Capitán América en Público?</string>
+    <string name="robert">Robert D. Junior</string>
+    <string name="txt2">Robert Downey Jr. será el nuevo Doctor Dolittl</string>
+    <string name="sebas">Sebastian Stan</string>
+    <string name="txt3">Sebastian Stan podría ser el nuevo Capitán América del Universo Cinemático de Marvel</string>
+    <string name="scarlet">Scarlet Johanson</string>
+    <string name="txt4">Scarlett Johansson pide el divorcio y lucha por la custodia de su hija</string>
+</resources>
