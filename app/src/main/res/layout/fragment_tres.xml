@@ -1,4 +1,4 @@
-<android.support.design.widget.CoordinatorLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,18 +7,473 @@
     tools:context="com.i053113.bottonnavigation.TresFragment">
 
     <!-- TODO: Update blank fragment layout -->
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rei_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/rey_1"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/casco11"
+
+                />
+            <ImageView
+                android:id="@+id/rey_2"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/cqsco1"
+                android:layout_below="@id/rey_1"
+                android:layout_margin="5dp"
+                android:layout_alignParentRight="@+id/rey_1">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/rey_3"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/casco_3"
+
+                android:layout_margin="5dp"
+                android:layout_alignRight="@+id/rey_2">
+
+                </ImageView>
+
+
+            <ImageView
+                android:id="@+id/rey_4"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/casco4"
+                android:layout_below="@id/rey_3"
+                android:layout_margin="5dp">
+
+            </ImageView>
+
+
+            <ImageView
+                android:id="@+id/rey_5"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/casco5"
+                android:layout_below="@id/rey_4">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/rey_6"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/casco6"
+                android:layout_below="@id/rey_5">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/rey_7"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/casco_3"
+                android:layout_below="@id/rey_6">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/rey_8"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/casco11"
+                android:layout_below="@id/rey_7"
+
+                />
+
+
+            <ImageView
+                android:id="@+id/rey_9"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/casco_3"
+                android:layout_below="@id/rey_8">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/rey_10"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/cqsco1"
+                android:layout_below="@id/rey_9"
+                android:layout_margin="5dp">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+
+
+
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="180dp"
 
-        <TextView
-            android:id="@+id/textView"
+        android:layout_alignParentBottom="true"
+
+        >
+
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-           android:layout_centerInParent="true"
-            android:text="@string/tx_3"
-            android:textSize="20sp" />
+            android:id="@+id/btn_13"
+            android:layout_margin="16dp"
+
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@menu/menu_bottonnavigation"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VIEW"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SONGS"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AÑADIR TX"
+                android:textColor="@color/colormeabjo"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VER IMAGEN"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAMBMOD"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ELIMINAR"
+                android:textColor="@color/colormeabjo"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MODIFICAR"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AGREGAR"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+
+
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+
+        >
+
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_11"
+
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@menu/menu_bottonnavigation"
+            >
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:background="@drawable/sebas"/>
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/chris_evans_1_100x100"/>
+
+
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:background="@drawable/robert"
+                />
+
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        >
+
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_12"
+            android:layout_margin="16dp"
+             android:layout_alignParentRight="true"
+
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NEWO"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VIEW"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SONGS"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AÑADIR TX"
+                android:textColor="@color/colormeabjo"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VER IMAGEN"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAMBMOD"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ELIMINAR"
+                android:textColor="@color/colormeabjo"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MODIFICAR"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AGREGAR"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+
+
+
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
     </RelativeLayout>
 
 
-</android.support.design.widget.CoordinatorLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+
+        android:layout_alignParentBottom="true"
+
+        >
+
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_10"
+            android:layout_margin="16dp"
+
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@menu/menu_bottonnavigation"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VIEW"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SONGS"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AÑADIR TX"
+                android:textColor="@color/colormeabjo"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VER IMAGEN"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAMBMOD"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ELIMINAR"
+                android:textColor="@color/colormeabjo"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MODIFICAR"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AGREGAR"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:background="@color/colorNEGRO"/>
+
+
+
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    </RelativeLayout>
+
+</RelativeLayout>
